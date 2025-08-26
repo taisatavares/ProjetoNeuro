@@ -1,0 +1,16 @@
+# Arquivos do PyCharm
+.idea/
+*.iml
+
+# Arquivos do Python
+__pycache__/
+*.pyc
+
+# Arquivos grandes ou temporários
+*.csv
+*.xlsx
+*.log
+
+# Ambiente virtual
+venv/
+.env

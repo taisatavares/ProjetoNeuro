@@ -1,0 +1,18 @@
+{
+  "batch_records": [
+    {
+      "VAR2": "M",
+      "IDADE": 30,
+      "VAR5": "PR",
+      "REF_DATE": "2025-08-01",
+      "TARGET": 0
+    },
+    {
+      "VAR2": "F",
+      "IDADE": 45,
+      "VAR5": "SP",
+      "REF_DATE": "2025-08-01",
+      "TARGET": 1
+    }
+  ]
+}
