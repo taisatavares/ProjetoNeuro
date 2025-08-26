@@ -11,34 +11,7 @@ O projeto também inclui scripts e exemplos para testar a API localmente no **Ju
 ---
 
 ## Estrutura do Projeto
-ProjetoNeuro/
-│
-├─ app/ # Código da API
-│ └─ main.py # API FastAPI com endpoints de performance e aderência
-│
-├─ monitoring/ # Arquivos de monitoramento e modelo
-│ └─ model.pkl # Modelo pré-treinado
-│
-├─ datasets/ # Conjuntos de dados (não incluídos no GitHub devido ao tamanho)
-│ └─ credit_01/
-│
-├─ batch_records.json # Exemplo de batch para teste do endpoint de Performance
-├─ README.md
-└─ .gitignore
-ProjetoNeuro/
-│
-├─ app/ # Código da API
-│ └─ main.py # API FastAPI com endpoints de performance e aderência
-│
-├─ monitoring/ # Arquivos de monitoramento e modelo
-│ └─ model.pkl # Modelo pré-treinado
-│
-├─ datasets/ # Conjuntos de dados (não incluídos no GitHub devido ao tamanho)
-│ └─ credit_01/
-│
-├─ batch_records.json # Exemplo de batch para teste do endpoint de Performance
-├─ README.md
-└─ .gitignore
+
 
 Execute a API:
 uvicorn app.main:app --reload --port 8001
